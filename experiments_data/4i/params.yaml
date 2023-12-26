@@ -1,0 +1,14 @@
+hidden_sizes:
+  - 144
+  - 144
+  - 80
+  - 80
+batch_size: 512
+init_sample_size_factor: 0.5
+test_size: 0.4
+monge_gap_regularizer: 1
+conservativity_regularizer: 0.01
+lr: 0.001
+scheduler_power: 1.5
+min_lr: 0.00001
+n_iters: 10_000

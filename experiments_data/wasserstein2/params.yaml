@@ -1,0 +1,51 @@
+le64params:
+  monge_gap_regularizer: 1
+  conservativity_regularizer: 0.01
+  lr: 0.01
+  scheduler_power: 1.5
+  min_lr: 0.00001
+  n_iters: 100000
+  batch_size: 1024
+  init_batch_size: 4096
+ge128params:
+  monge_gap_regularizer: 10
+  conservativity_regularizer: 0.1
+  lr: 0.001
+  scheduler_power: 1.5
+  min_lr: 0.00001
+  n_iters: 100000
+  batch_size: 1024
+  init_batch_size: 4096
+hidden_sizes:
+  dim2:
+    - 128
+    - 64
+    - 64
+  dim4:
+    - 128
+    - 64
+    - 64
+  dim8:
+    - 130
+    - 66
+    - 66
+  dim16:
+    - 132
+    - 68
+    - 68
+  dim32:
+    - 136
+    - 72
+    - 72
+  dim64:
+    - 146
+    - 82
+    - 82
+  dim128:
+    - 290
+    - 162
+    - 162
+  dim256:
+    - 580
+    - 324
+    - 324
